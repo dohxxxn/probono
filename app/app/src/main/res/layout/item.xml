@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/program1_writer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가정"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/program1_image"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        android:src="@drawable/program1_image"/>
+
+    <TextView
+        android:id="@+id/program1_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘은 'ㅏ'발음 연습을 해봤어요. 가르쳐주신 노래를
+열심히 따라부르니 전보다 많이 나아졌어요. 심지어 'ㅐ'발음도 따라하더라구요.
+요즘 점점 나아지고 있는 모습을 보니 정말 다행이에요."
+        android:textColor="@color/black"/>
+
+</LinearLayout>
