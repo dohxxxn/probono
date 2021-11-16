@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainpage"
+        android:title="홈"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/home_diary"
+        android:title="활동일지 작성"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/schedule"
+        android:title="치료 일정표"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:enabled="true"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="프로필"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:enabled="true"/>
+
+</menu>
